@@ -58,7 +58,7 @@ func LatestVersions(releases []*semver.Version, minVersion *semver.Version) []*s
 
 }
 
-// function to parse lines of input from filr
+// function to parse lines of input from file
 func parseInput(path string) [][]string {
 
 	absPath, _ := filepath.Abs(path)
